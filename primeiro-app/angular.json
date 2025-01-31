@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "primeiro-projeto": {
+    "primeiro-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/primeiro-projeto",
+            "outputPath": "dist/primeiro-app",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "primeiro-projeto:build:production"
+              "buildTarget": "primeiro-app:build:production"
             },
             "development": {
-              "buildTarget": "primeiro-projeto:build:development"
+              "buildTarget": "primeiro-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -94,6 +94,6 @@
     }
   },
   "cli": {
-    "analytics": "f4205f31-b52b-41b6-99ad-1da10495fa9f"
+    "analytics": "f904e24f-7759-4ebb-bf12-e7b505eac504"
   }
 }
